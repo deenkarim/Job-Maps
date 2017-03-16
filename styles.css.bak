@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+body 
+{   
+    background: #474747;
+    font-family: "Lucida Grande", Arial;
+    color: #000;
+}
+html.clearfix {
+display: block;
+}
+.clearfix::after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+.right {
+float: right!important;
+}
+div#header {
+width: 100%;
+height: 39px;
+background: transparent url(images/header.png) repeat-x 0 0;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+overflow: hidden;
+}
+
+ol, ul {
+list-style: none;
+}
+div#header li a.first {
+background-image: none;
+}
+
+div#header li a {
+display: block;
+height: 36px;
+line-height: 36px;
+padding: 0 15px;
+font-weight: bold;
+background: transparent url(images/header-sep.png) no-repeat 0 50%;
+color: #565A66;
+text-shadow: #E2E3E7 0 1px 0;
+text-decoration: none;
+}
+
+div#header li {
+float: left;
+display: block;
+}
+
+
+#map {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#map-side-bar {
+	display: none;
+	
+	width: 160px;
+	padding: 7px 20px;
+}
+
+div#map-options {
+position: absolute;
+top: 45px;
+right: 19px;
+height: 32px;
+z-index: 100;
+}
+
+div#map-options a#map-options-btn {
+display: block;
+width: 84px;
+height: 32px;
+padding: 0 0 0 29px;
+margin-right: 7px;
+text-align: left;
+float: left;
+background: transparent url(images/map-options.png) no-repeat 0 0;
+}
+div#map-options a {
+padding: 0 0 0 6px;
+line-height: 32px;
+font-size: 11px;
+color: #565A66;
+text-shadow: 0 1px 0 white;
+text-decoration: none;
+font-weight: bold;
+}
+div#map-options a#toggle-menu-btn {
+display: block;
+width: 31px;
+height: 32px;
+float: left;
+padding: 0!important;
+background: transparent url(images/toggle-menu.png) no-repeat 0 0;
+}
+
+div#plane-stats-overlay {
+z-index: 2;
+position: absolute;
+bottom: 80px;
+right: 20px;
+background: transparent url(images/stats-overlay-bg.png) no-repeat 0 0;
+padding: 5px 7px 5px 7px;
+font-size: 11px;
+line-height: 20px;
+text-shadow: 0 1px 0 white;
+color: black;
+width: 124px;
+height: 43px;
+}
+div#get-the-app-overlay a {
+display: block;
+background: transparent url(images/app-overlay-bg.png) no-repeat 0 0;
+padding: 13px 7px 5px 50px;
+font-size: 11px;
+font-weight: bold;
+text-shadow: 0 1px 0 white;
+color: black;
+text-decoration: none;
+line-height: 14px;
+width: 81px;
+height: 38px;
+}
+div#profile-view {
+z-index: 2;
+position: absolute;
+top: 100px;
+left: 20px;
+background: transparent url(images/header.png) repeat-x 0 0;
+padding: 5px 7px 5px 7px;
+font-size: 11px;
+line-height: 20px;
+text-shadow: 0 1px 0 white;
+color: black;
+width: 180px;
+height: 200px;
+}
